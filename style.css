@@ -1,0 +1,116 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ffe6f0, #f3e8ff);
+  margin: 0;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #ff6ec4, #7873f5);
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 20px 20px;
+}
+.navbar h3{
+  font-weight: 500;
+}
+
+/* Container */
+.container {
+  width: 85%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+/* Card */
+.card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(255, 105, 180, 0.2);
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  outline: none;
+}
+input:focus {
+  border-color: #ff6ec4;
+  box-shadow: 0 0 8px rgba(255,110,196,0.4);
+}
+
+/* Buttons */
+button {
+  margin-top: 15px;
+  padding: 10px 19px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #ff6ec4, #7873f5);
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Delete button */
+.delete-btn {
+  background: linear-gradient(90deg, #ff4e50, #f9d423);
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: linear-gradient(90deg, #ff6ec4, #7873f5);
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background: #fff0f6;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #444;
+}
+
+
+.total-box {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+
+
